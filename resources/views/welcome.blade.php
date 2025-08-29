@@ -10,9 +10,9 @@
     <title>Tema Dinámico</title>
     <style>
       :root {
-        --dynamic-primary: {{ $theme['primary'] }};
-        --dynamic-secondary: {{ $theme['secondary'] }};
-        --dynamic-font-size: {{ $theme['fontSize'] }};
+        --primary: {{ $theme['primary'] }};
+        --secondary: {{ $theme['secondary'] }};
+        --fontSize: {{ $theme['fontSize'] }};
       }
     </style>
 </head>

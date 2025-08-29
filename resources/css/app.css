@@ -6,7 +6,7 @@
 @source '../**/*.js';
 
 @theme {
-    --color-primary: var(--dynamic-primary);
-    --color-secondary: var(--dynamic-secondary);
-    --text-base: var(--dynamic-font-size);
+    --color-primary: var(--primary);
+    --color-secondary: var(--secondary);
+    --text-base: var(--fontSize);
 }
